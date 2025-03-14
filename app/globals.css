@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/fonts/ProductSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'Product Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  scrollbar-width: none; /* Firefox */
+}
+
